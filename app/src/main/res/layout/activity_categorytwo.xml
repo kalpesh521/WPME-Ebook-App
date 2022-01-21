@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/bgpinkp"
+    tools:context=".CategorytwoActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="374dp"
+        android:layout_height="736dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:scrollbarStyle="outsideInset">
+
+            <TextView
+                android:id="@+id/txtpart"
+                android:layout_width="243dp"
+                android:layout_height="wrap_content"
+                android:scrollbarStyle="insideInset"
+                android:text="   PART TWO "
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:textStyle="bold"></TextView>
+
+
+            <TextView
+                android:layout_width="243dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtpart"
+                android:layout_marginTop="-2dp"
+                android:text="   Select Category"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold"></TextView>
+        </RelativeLayout>
+
+        <GridLayout
+            android:id="@+id/mainGridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="744dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="4">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/action"
+                android:layout_width="360dp"
+                android:layout_height="60dp"
+                android:layout_row="1"
+                android:layout_rowWeight=" 0"
+
+                android:layout_column="0"
+                android:layout_columnWeight="0"
+                android:layout_margin="5dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/borderone"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="10dp"
+
+
+                >
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    android:background="@drawable/borderone"
+                    android:gravity="left"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+
+                    <TextView
+                        android:id="@+id/one"
+                        android:layout_width="343dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:scrollbarStyle="insideInset"
+                        android:text=" ACTIONS "
+                        android:textColor="#000000"
+                        android:textSize="24sp"
+                        android:textStyle="bold"></TextView>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/speechhabits"
+                android:layout_width="360dp"
+                android:layout_height="60dp"
+                android:layout_row="1"
+                android:layout_rowWeight=" 0"
+
+                android:layout_column="0"
+                android:layout_columnWeight="0"
+                android:layout_margin="5dp"
+                android:layout_marginTop="130dp"
+                android:background="@drawable/borederthree"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="10dp"
+
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borderfive"
+
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="348dp"
+                        android:layout_height="95dp"
+
+                        android:gravity="start"
+                        android:rotationX="-4"
+                        android:scrollbarStyle="outsideInset">
+
+                        <TextView
+                            android:id="@+id/what"
+                            android:layout_width="343dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:scrollbarStyle="insideInset"
+                            android:text="SPEECH HABITS "
+                            android:textColor="#000000"
+                            android:textSize="24sp"
+                            android:textStyle="bold"></TextView>
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/enemy"
+                android:layout_width="360dp"
+                android:layout_height="60dp"
+                android:layout_row="1"
+                android:layout_rowWeight=" 0"
+
+                android:layout_column="0"
+                android:layout_columnWeight="0"
+                android:layout_margin="5dp"
+                android:layout_marginTop="210dp"
+
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="10dp"
+
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borderone"
+                    android:gravity="left"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="348dp"
+                        android:layout_height="95dp"
+
+                        android:gravity="start"
+                        android:rotationX="-4"
+                        android:scrollbarStyle="outsideInset">
+
+                        <TextView
+                            android:id="@+id/characteristics"
+                            android:layout_width="343dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:scrollbarStyle="insideInset"
+                            android:text=" INSULT ENEMIES "
+                            android:textColor="#000000"
+                            android:textSize="24sp"
+                            android:textStyle="bold"></TextView>
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/friends"
+                android:layout_width="360dp"
+                android:layout_height="60dp"
+                android:layout_row="1"
+                android:layout_rowWeight=" 0"
+
+                android:layout_column="0"
+                android:layout_columnWeight="0"
+                android:layout_margin="5dp"
+                android:layout_marginTop="290dp"
+
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="10dp"
+
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borderfour"
+                    android:gravity="left"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="348dp"
+                        android:layout_height="95dp"
+
+                        android:gravity="start"
+                        android:rotationX="-4"
+                        android:scrollbarStyle="outsideInset">
+
+                        <TextView
+                            android:id="@+id/four"
+                            android:layout_width="343dp"
+                            android:layout_height="wrap_content"
+                            android:scrollbarStyle="insideInset"
+                            android:text="            FLATTER FRIENDS"
+
+                            android:textColor="#000000"
+                            android:textSize="24sp"
+                            android:textStyle="bold"></TextView>
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/testthreee"
+                android:layout_width="360dp"
+                android:layout_height="60dp"
+                android:layout_row="1"
+                android:layout_rowWeight=" 0"
+
+                android:layout_column="0"
+                android:layout_columnWeight="0"
+                android:layout_margin="5dp"
+                android:layout_marginTop="370dp"
+
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="10dp"
+
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bordertwo"
+                    android:gravity="left"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="348dp"
+                        android:layout_height="95dp"
+
+                        android:gravity="start"
+                        android:rotationX="-4"
+                        android:scrollbarStyle="outsideInset">
+
+                        <TextView
+                            android:id="@+id/tetstthree"
+                            android:layout_width="343dp"
+                            android:layout_height="60dp"
+                            android:scrollbarStyle="insideInset"
+                            android:text="    COMPREHENSIVE TEST-2 "
+
+                            android:textColor="#000000"
+                            android:textSize="24sp"
+                            android:textStyle="bold"></TextView>
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+

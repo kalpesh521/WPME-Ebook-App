@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".PartActivity">
+
+
+    <LinearLayout
+
+
+        android:id="@+id/linearLayout"
+        android:layout_width="394dp"
+        android:layout_height="736dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="351dp"
+            android:layout_height="255dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="15dp"
+            app:srcCompat="@drawable/wpmemor"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <GridLayout
+            android:id="@+id/mainGridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="744dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="4">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/contents"
+                android:layout_width="360dp"
+                android:layout_height="109dp"
+                android:layout_row="1"
+                android:layout_rowWeight=" 0"
+
+                android:layout_column="0"
+                android:layout_columnWeight="0"
+                android:layout_margin="5dp"
+                android:layout_marginTop="5dp"
+
+                android:background="#64DD17"
+                android:clickable="true"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="10dp"
+
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bordersix"
+                    android:gravity="left"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="348dp"
+                        android:layout_height="95dp"
+
+                        android:gravity="start"
+                        android:scrollbarStyle="outsideInset">
+
+                        <TextView
+                            android:id="@+id/ones"
+                            android:layout_width="143dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ripplebutton4"
+                            android:scrollbarStyle="insideInset"
+                            android:text="   CONTENTS    "
+                            android:textColor="#FFFFFF"
+                            android:textSize="22sp"
+                            android:textStyle="bold"></TextView>
+
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="85dp"
+                            android:layout_height="85dp"
+                            android:layout_marginStart="255dp"
+                            app:srcCompat="@drawable/bookp" />
+
+                        <TextView
+                            android:id="@+id/onesa"
+                            android:layout_width="234dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/ones"
+                            android:layout_marginTop="2dp"
+                            android:gravity="left"
+                            android:text="   How To Use Book "
+                            android:textColor="#000000"
+                            android:textSize="22sp"
+                            android:textStyle="bold"></TextView>
+
+                        <TextView
+                            android:layout_width="254dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/onesa"
+                            android:layout_marginTop="-4dp"
+                            android:gravity="left"
+                            android:text="   For Maximum Benefit"
+                            android:textColor="#000000"
+                            android:textSize="22sp"
+                            android:textStyle="bold"></TextView>
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sesone"
+                android:layout_width="360dp"
+                android:layout_height="107dp"
+                android:layout_row="1"
+                android:layout_rowWeight=" 0"
+
+                android:layout_column="0"
+                android:layout_columnWeight="0"
+                android:layout_margin="5dp"
+                android:layout_marginTop="130dp"
+
+                android:background="@drawable/bordersix"
+                android:clickable="true"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="10dp"
+
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borderone"
+                    android:gravity="left"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="348dp"
+                        android:layout_height="95dp"
+
+                        android:gravity="start"
+                        android:scrollbarStyle="outsideInset">
+
+                        <TextView
+                            android:id="@+id/one"
+                            android:layout_width="143dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ripplebutton"
+                            android:scrollbarStyle="insideInset"
+                            android:text="  PART  ONE    "
+                            android:textColor="#FFFFFF"
+                            android:textSize="22sp"
+                            android:textStyle="bold"></TextView>
+
+
+                        <TextView
+                            android:id="@+id/onea"
+                            android:layout_width="234dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/one"
+                            android:layout_marginTop="2dp"
+                            android:gravity="left"
+                            android:text="   Getting Off To A"
+                            android:textColor="#000000"
+                            android:textSize="22sp"
+                            android:textStyle="bold"></TextView>
+
+                        <TextView
+                            android:layout_width="234dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/onea"
+                            android:layout_marginTop="-4dp"
+                            android:gravity="left"
+                            android:text="   Good Start"
+                            android:textColor="#000000"
+                            android:textSize="22sp"
+                            android:textStyle="bold"></TextView>
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="67dp"
+                            android:layout_height="75dp"
+                            android:layout_marginStart="260dp"
+                            android:layout_marginTop="10dp"
+                            app:srcCompat="@drawable/start" />
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sestwo"
+                android:layout_width="360dp"
+                android:layout_height="107dp"
+                android:layout_row="1"
+                android:layout_rowWeight=" 0"
+                android:layout_column="0"
+                android:layout_columnWeight="0"
+                android:layout_margin="5dp"
+                android:layout_marginTop="250dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="10dp"
+
+
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bordertwo"
+                    android:gravity="left"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="348dp"
+                        android:layout_height="95dp"
+
+                        android:gravity="start"
+                        android:scrollbarStyle="outsideInset">
+
+                        <TextView
+                            android:id="@+id/what"
+                            android:layout_width="143dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ripplebutton2"
+                            android:scrollbarStyle="insideInset"
+                            android:text="   PART TWO"
+                            android:textColor="#FFFFFF"
+                            android:textSize="22sp"
+                            android:textStyle="bold"></TextView>
+
+
+                        <TextView
+                            android:id="@+id/twoa"
+                            android:layout_width="234dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/what"
+                            android:layout_marginTop="2dp"
+                            android:gravity="left"
+                            android:text="   Gaining Increased "
+                            android:textColor="#000000"
+                            android:textSize="22sp"
+                            android:textStyle="bold"></TextView>
+
+                        <TextView
+                            android:layout_width="234dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/twoa"
+                            android:layout_marginTop="-4dp"
+                            android:gravity="left"
+                            android:text="   Momentum"
+                            android:textColor="#000000"
+                            android:textSize="22sp"
+                            android:textStyle="bold"></TextView>
+
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="75dp"
+                            android:layout_height="80dp"
+                            android:layout_marginStart="258dp"
+                            android:layout_marginTop="6dp"
+                            app:srcCompat="@drawable/increasegraph" />
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sesthree"
+                android:layout_width="360dp"
+                android:layout_height="108dp"
+                android:layout_row="1"
+                android:layout_rowWeight=" 0"
+                android:layout_column="0"
+                android:layout_columnWeight="0"
+                android:layout_margin="5dp"
+                android:layout_marginTop="370dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="10dp"
+
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borederthree"
+                    android:gravity="left"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="348dp"
+                        android:layout_height="95dp"
+
+                        android:gravity="start"
+                        android:scrollbarStyle="outsideInset">
+
+                        <TextView
+                            android:id="@+id/characteristics"
+                            android:layout_width="177dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ripplebutton3"
+                            android:scrollbarStyle="insideInset"
+                            android:text="   PART THREE"
+                            android:textColor="#FFFFFF"
+                            android:textSize="22sp"
+                            android:textStyle="bold"></TextView>
+
+
+                        <TextView
+                            android:id="@+id/threea"
+                            android:layout_width="234dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/characteristics"
+                            android:layout_marginTop="2dp"
+                            android:gravity="left"
+                            android:text="   Finishing With A"
+                            android:textColor="#000000"
+                            android:textSize="22sp"
+                            android:textStyle="bold"></TextView>
+
+                        <TextView
+                            android:layout_width="234dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/threea"
+                            android:layout_marginTop="-4dp"
+                            android:gravity="left"
+                            android:text="   Complete Success"
+                            android:textColor="#000000"
+                            android:textSize="22sp"
+                            android:textStyle="bold"></TextView>
+
+                        <ImageView
+                            android:id="@+id/imageView8"
+                            android:layout_width="95dp"
+                            android:layout_height="80dp"
+                            android:layout_marginStart="255dp"
+                            android:layout_marginTop="6dp"
+                            app:srcCompat="@drawable/darts" />
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
+

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wpmeoffline">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconwpme"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/iconwpme"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Wpmeoffline">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".splash" />
+        <activity android:name=".comptestthree" />
+        <activity android:name=".comptesttwo" />
+        <activity android:name=".contentpdf" />
+        <activity android:name=".pzfourtysix" />
+        <activity android:name=".pufourtyseven" />
+        <activity android:name=".ptfourtyfive" />
+        <activity android:name=".psfourtyfour" />
+        <activity android:name=".prfourtythree" />
+        <activity android:name=".pqfourtytwo" />
+        <activity android:name=".ppfourtyone" />
+        <activity android:name=".pofourty" />
+        <activity android:name=".pnthirtynine" />
+        <activity android:name=".pmthirtyeight" />
+        <activity android:name=".pmthirtyseven" />
+        <activity android:name=".plthirtysix" />
+        <activity android:name=".pkthirtyfive" />
+        <activity android:name=".pjthirtyfour" />
+        <activity android:name=".pithirtythree" />
+        <activity android:name=".phthirtytwo" />
+        <activity android:name=".pgthirtyone" />
+        <activity android:name=".pfthirty" />
+        <activity android:name=".petwentynine" />
+        <activity android:name=".dtwentyeight" />
+        <activity android:name=".ctwentyseven" />
+        <activity android:name=".btwentysix" />
+        <activity android:name=".atwentyfive" />
+        <activity android:name=".pdfsevtwentyfour" />
+        <activity android:name=".pdfseutwentythree" />
+        <activity android:name=".pdfsettwentytwo" />
+        <activity android:name=".pdfsestwentyone" />
+        <activity android:name=".pdfsertwenty" />
+        <activity android:name=".pdfseqnineteen" />
+        <activity android:name=".pdfsepeighteen" />
+        <activity android:name=".pdfsepseventeen" />
+        <activity android:name=".pdfseosixteen" />
+        <activity android:name=".pdfsenfiftteen" />
+        <activity android:name=".pdfsemfourteen" />
+        <activity android:name=".pdfselthirteen" />
+        <activity android:name=".pdfsektweleve" />
+        <activity android:name=".pdfsejeleven" />
+        <activity android:name=".pdfseiten" />
+        <activity android:name=".pdfsehnine" />
+        <activity android:name=".pdfsegeight" />
+        <activity android:name=".pdfsefseven" />
+        <activity android:name=".pdfseesix" />
+        <activity android:name=".pdfsedfive" />
+        <activity android:name=".pdfsecfour" />
+        <activity android:name=".pdfsebthree" />
+        <activity android:name=".pdfseatwo" />
+        <activity android:name=".charcreristicssess" />
+        <activity android:name=".whatsesss" />
+        <activity android:name=".phenomenonsess" />
+        <activity android:name=".ffriendsess" />
+        <activity android:name=".enemysess" />
+        <activity android:name=".speechhabitsess" />
+        <activity android:name=".actionsess" />
+        <activity android:name=".comprtestone" />
+        <activity android:name=".liarsession" />
+        <activity android:name=".doctorsession" />
+        <activity android:name=".sciencesession" />
+        <activity android:name=".practitionersession" />
+        <activity android:name=".categorythirdactivity" />
+        <activity android:name=".PersonalityPDF" />
+        <activity android:name=".persSession" />
+        <activity android:name=".CategorytwoActivity" />
+        <activity android:name=".CategoryoneActivity" />
+        <activity android:name=".PartActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
